@@ -10,7 +10,7 @@ export default function Home() {
 
         <div className="inline-block">
           <Image 
-            src="/me.jpg"
+            src="/public/me.jpg"
             alt="Your Name"
             width={100}
             height={100}
