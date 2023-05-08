@@ -10,12 +10,11 @@ export default function Home() {
 
         <div className="inline-block">
           <Image 
-            src="/public/me.jpg"
+            src="/me.jpg"
             alt="Your Name"
             width={100}
             height={100}
-            className="rounded-full mx-auto mb-6"
-          />
+            className="rounded-full mx-auto mb-6"/>
           </div>
           
           <div className="font-medium dark:text-white">
@@ -49,15 +48,14 @@ export default function Home() {
 
                 <h1 className="mt-4 text-xl font-semibold text-gray-800 dark:text-white">Cloud Computing</h1>
 
-                <p className="mt-2 text-gray-500 dark:text-gray-400">
-                  <ul className="list-disc pl-5 text-gray-600 dark:text-gray-300">
-                <li>Expertise in designing and implementing scalable, highly available, fault-tolerant AWS systems.</li><br></br>
-                <li>Proficient with EC2, RDS, EBS, ELB, Auto Scaling, and other AWS services.</li><br></br>
-                <li>Skilled in scripting languages, such as Python, for AWS automation tasks.</li><br></br>
-                <li>Strong knowledge of AWS security best practices and disaster recovery solutions.</li><br></br>
-                <li>Experienced with AWS migration tools for efficient workload transition to the cloud.</li><br></br>
-                <li>Bachelor's in Economics, Diploma in Cloud Computing & Linux, and Computer Science Certification.</li>
-                </ul></p>
+                <ul className="mt-2 list-disc pl-5 text-gray-600 dark:text-gray-300">
+                  <li>Expertise in designing and implementing scalable, highly available, fault-tolerant AWS systems.</li><br></br>
+                  <li>Proficient with EC2, RDS, EBS, ELB, Auto Scaling, and other AWS services.</li><br></br>
+                  <li>Skilled in scripting languages, such as Python, for AWS automation tasks.</li><br></br>
+                  <li>Strong knowledge of AWS security best practices and disaster recovery solutions.</li><br></br>
+                  <li>Experienced with AWS migration tools for efficient workload transition to the cloud.</li><br></br>
+                  <li>Bachelor's in Economics, Diploma in Cloud Computing & Linux, and Computer Science Certification.</li>
+                </ul>
                 </div>
 
 
@@ -68,14 +66,14 @@ export default function Home() {
 
                   <h1 className="mt-4 text-xl font-semibold text-gray-800 dark:text-white">Programming</h1>
 
-                  <p className="mt-2 text-gray-500 dark:text-gray-400"><ul className="list-disc pl-5 text-gray-600 dark:text-gray-300">
+                  <ul className="mt-2 list-disc pl-5 text-gray-600 dark:text-gray-300">
                   <li>Expertise in designing and implementing scalable, highly available, fault-tolerant AWS systems.</li><br></br>
                   <li>Proficient with EC2, RDS, EBS, ELB, Auto Scaling, and other AWS services.</li><br></br>
                   <li>Skilled in scripting languages, such as Python, for AWS automation tasks.</li><br></br>
                   <li>Strong knowledge of AWS security best practices and disaster recovery solutions.</li><br></br>
                   <li>Experienced with AWS migration tools for efficient workload transition to the cloud.</li><br></br>
                   <li>Bachelor's in Economics, Diploma in Cloud Computing & Linux, and Computer Science Certification.</li>
-                </ul></p>
+                </ul>
                 </div>
 
               
@@ -87,15 +85,14 @@ export default function Home() {
 
                   <h1 className="mt-4 text-xl font-semibold text-gray-800 dark:text-white">Linux</h1>
 
-                  <p className="mt-2 text-gray-500 dark:text-gray-400">
-                    <ul className="list-disc pl-5 text-gray-600 dark:text-gray-300">
+                  <ul className="mt-2 list-disc pl-5 text-gray-600 dark:text-gray-300">
                   <li>Expertise in designing and implementing scalable, highly available, fault-tolerant AWS systems.</li><br></br>
                   <li>Proficient with EC2, RDS, EBS, ELB, Auto Scaling, and other AWS services.</li><br></br>
                   <li>Skilled in scripting languages, such as Python, for AWS automation tasks.</li><br></br>
                   <li>Strong knowledge of AWS security best practices and disaster recovery solutions.</li><br></br>
                   <li>Experienced with AWS migration tools for efficient workload transition to the cloud.</li><br></br>
                   <li>Bachelor's in Economics, Diploma in Cloud Computing & Linux, and Computer Science Certification.</li>
-                </ul></p>
+                </ul>
                 </div>
               </div>
           </div>
