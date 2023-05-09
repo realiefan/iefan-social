@@ -137,12 +137,51 @@ export default function Home() {
          </section>
 
 
+
+
+
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-4 text-gray-800 dark:text-gray-100">
             Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Repeat this div for each project */}
+
+            <div className="bg-white dark:bg-gray-800 shadow rounded p-4">
+              <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-100">
+                MicroServices with AWS
+              </h3>
+              <p className="text-gray-600 dark:text-gray-300">
+              Bachelor's in Economics, Diploma in Cloud Computing & Linux, and Computer Science Certification.
+              </p>
+              <img src="/ms.png" alt="Project Image" className="w-full h-auto rounded my-2" />
+              <a
+                href="https://app.cloudcraft.co/view/e5afb7e8-51e2-458c-beff-8cd0a970322f?key=72c9d1a2-13fc-47ab-89e1-c336b580bd00"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 mt-2 inline-block">
+                View Project
+              </a>
+            </div>
+
+            <div className="bg-white dark:bg-gray-800 shadow rounded p-4">
+              <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-100">
+                Highly Scalable Web Application
+              </h3>
+              <p className="text-gray-600 dark:text-gray-300">
+              Bachelor's in Economics, Diploma in Cloud Computing & Linux, and Computer Science Certification.
+              </p>
+              <img src="/webapp.png" alt="Project Image" className="w-full h-auto rounded my-2" />
+              <a
+                href="https://app.cloudcraft.co/view/bcdb1684-8ef7-48a7-a25e-92b2010a5cd9?key=4538c9d5-5c6c-450f-a552-43d684824114"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 mt-2 inline-block">
+                View Project
+              </a>
+            </div>
+
+            
             <div className="bg-white dark:bg-gray-800 shadow rounded p-4">
               <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-100">
                 Zapit.live
@@ -207,6 +246,7 @@ export default function Home() {
           </div>
           
         </section>
+        
 
         <section>
           <h2 className="text-2xl font-bold mb-4 text-gray-800 dark:text-gray-100">
@@ -221,6 +261,8 @@ export default function Home() {
                 your-email@example.com
               </a>
         </section>
+
+        
 
 
       </div>
