@@ -54,7 +54,7 @@ export default function Home() {
                   <li>Skilled in scripting languages, such as Python, for AWS automation tasks.</li><br></br>
                   <li>Strong knowledge of AWS security best practices and disaster recovery solutions.</li><br></br>
                   <li>Experienced with AWS migration tools for efficient workload transition to the cloud.</li><br></br>
-                  <li>Proficient in utilizing AWS monitoring tools, such as CloudWatch and AWS Trusted Advisor, for performance optimization and cost management.</li><br></br>
+                  <li>Proficient in utilizing AWS monitoring tools, such as CloudWatch and AWS Trusted Advisor.</li><br></br>
                   <li>Bachelor's in Economics, Diploma in Cloud Computing & Linux, and Computer Science Certification.</li>
                 </ul>
                 </div>
