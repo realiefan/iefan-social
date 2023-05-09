@@ -54,6 +54,7 @@ export default function Home() {
                   <li>Skilled in scripting languages, such as Python, for AWS automation tasks.</li><br></br>
                   <li>Strong knowledge of AWS security best practices and disaster recovery solutions.</li><br></br>
                   <li>Experienced with AWS migration tools for efficient workload transition to the cloud.</li><br></br>
+                  <li>Proficient in utilizing AWS monitoring tools, such as CloudWatch and AWS Trusted Advisor, for performance optimization and cost management.</li><br></br>
                   <li>Bachelor's in Economics, Diploma in Cloud Computing & Linux, and Computer Science Certification.</li>
                 </ul>
                 </div>
@@ -67,13 +68,14 @@ export default function Home() {
                   <h1 className="mt-4 text-xl font-semibold text-gray-800 dark:text-white">Programming</h1>
 
                   <ul className="mt-2 list-disc pl-5 text-gray-600 dark:text-gray-300">
-                  <li>Expertise in designing and implementing scalable, highly available, fault-tolerant AWS systems.</li><br></br>
-                  <li>Proficient with EC2, RDS, EBS, ELB, Auto Scaling, and other AWS services.</li><br></br>
-                  <li>Skilled in scripting languages, such as Python, for AWS automation tasks.</li><br></br>
-                  <li>Strong knowledge of AWS security best practices and disaster recovery solutions.</li><br></br>
-                  <li>Experienced with AWS migration tools for efficient workload transition to the cloud.</li><br></br>
-                  <li>Bachelor's in Economics, Diploma in Cloud Computing & Linux, and Computer Science Certification.</li>
-                </ul>
+                      <li>Strong proficiency in Python and JavaScript, with experience in developing a wide range of applications.</li><br></br>
+                      <li>Expertise in using Tailwind CSS for responsive, modern, and elegant web designs.</li><br></br>
+                      <li>Extensive experience working with RESTful APIs, integrating them into projects and building custom solutions.</li><br></br>
+                      <li>Skilled in developing real-time applications using WebSockets for seamless communication between clients and servers.</li><br></br>
+                      <li>Proven ability to develop and maintain efficient, scalable, and secure applications following best coding practices.</li><br></br>
+                      <li>Demonstrated aptitude for troubleshooting and debugging complex coding issues to ensure optimal performance.</li>
+                  </ul>
+
                 </div>
 
               
@@ -86,13 +88,17 @@ export default function Home() {
                   <h1 className="mt-4 text-xl font-semibold text-gray-800 dark:text-white">Linux</h1>
 
                   <ul className="mt-2 list-disc pl-5 text-gray-600 dark:text-gray-300">
-                  <li>Expertise in designing and implementing scalable, highly available, fault-tolerant AWS systems.</li><br></br>
-                  <li>Proficient with EC2, RDS, EBS, ELB, Auto Scaling, and other AWS services.</li><br></br>
-                  <li>Skilled in scripting languages, such as Python, for AWS automation tasks.</li><br></br>
-                  <li>Strong knowledge of AWS security best practices and disaster recovery solutions.</li><br></br>
-                  <li>Experienced with AWS migration tools for efficient workload transition to the cloud.</li><br></br>
-                  <li>Bachelor's in Economics, Diploma in Cloud Computing & Linux, and Computer Science Certification.</li>
-                </ul>
+                    <li>Extensive experience with Linux systems administration and management.</li><br></br>
+                    <li>Strong knowledge of common Linux distributions, such as Ubuntu, CentOS, and Red Hat.</li><br></br>
+                    <li>Proficient in using the Linux command line and Basic shell scripting.</li><br></br>
+                    <li>Experience with managing and administering system services, such as Apache, MySQL, and Nginx.</li><br></br>
+                    <li>Familiarity with network and server management tools, such as SSH, FTP, and SFTP.</li><br></br>
+                    <li>Ability to troubleshoot and resolve system issues and errors.</li><br></br>
+                    <li>Knowledge of best practices for system security, backups, and disaster recovery.</li>
+                  </ul>
+
+
+
                 </div>
               </div>
           </div>
@@ -116,10 +122,10 @@ export default function Home() {
               "Azure",
               "JavaScript",
               "Python",
-              "HTML/CSS",
+              "Next JS",
               "Tailwind CSS",
               "Git",
-              "MongoDB",
+              "API",
             ].map((skill) => (
               <div
                 key={skill}
